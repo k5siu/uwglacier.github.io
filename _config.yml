@@ -3,13 +3,3 @@ theme: jekyll-theme-minimal
 site-name:
 logo: /assets/mountain.png
 site_name: 'University of Waterloo Glaciology'
-theme:
-    name: material
-# Required to load the MathJax javascript for the mdx_math.py
-extra_javascript:
-        - 'https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML'
-        - 'javascripts/extra.js'
-nav:
-        - Home: index.md
-        - shallow_water.md
-        - heat_equation.md
