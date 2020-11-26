@@ -1,4 +1,4 @@
-theme: material
+theme: jekyll-minimal
 
 site-name:
 logo: /assets/mountain.png
