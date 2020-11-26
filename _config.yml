@@ -4,4 +4,4 @@ site_name: 'University of Waterloo Glaciology'
 
 plugins:
   - jekyll-remote-theme
-remote_theme: benbalter/retlab
+remote_theme: "mmistakes/minimal-mistakes@4.21.0"
