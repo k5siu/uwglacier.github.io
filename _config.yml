@@ -4,6 +4,5 @@ site-name:
 logo: /assets/mountain.png
 site_name: 'University of Waterloo Glaciology'
 
-nav:
-  - index.md
-  - contact-us.md
+plugins:
+  - jekyll-remote-theme
