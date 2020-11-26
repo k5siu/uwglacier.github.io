@@ -1,8 +1,7 @@
-theme: jekyll-theme-minimal
-
 site-name:
 logo: /assets/mountain.png
 site_name: 'University of Waterloo Glaciology'
 
 plugins:
   - jekyll-remote-theme
+remote_theme: benbalter/retlab
