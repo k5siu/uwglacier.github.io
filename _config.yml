@@ -68,8 +68,8 @@ author:
   bio    : "If you find a useful piece of code... add it!"
   links:
     - label: "Website"
-      icon: "https://uwglacier.wordpress.com/"
-      url: "https://"
+      icon: "fab fa-fw fa-link"
+      url: "https://uwglacier.wordpress.com/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/UWGlacier"
