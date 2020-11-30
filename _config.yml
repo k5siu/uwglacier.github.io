@@ -16,9 +16,9 @@
 title: University of Waterloo Glaciology Group Wiki
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A central location to collect tips, code snippets, scripts, functions,
+  and any other useful information for running glaciology models and
+  analyzing their outputs using Matlab and more.
 twitter_username: UWglacier
 github_username: uwglacier
 minimal_mistakes_skin: default
