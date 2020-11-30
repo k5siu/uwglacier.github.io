@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+# UW Glaciology group technical tips and tricks page
 
-You can use the [editor on GitHub](https://github.com/uwglacier/uwglacier.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Contribution instructions
+You can contribute from the Github web interface, or by cloning the repository and pushing changes.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/uwglacier/uwglacier.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Add a page
+Add a markdown file in the `_pages/` directory with your content. If you want to add the file to the top navigation bar, also add the appropriate data to `_data/navigation.yml`.

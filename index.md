@@ -1,14 +1,37 @@
-# Welcome to the University of Waterloo Glaciology online documentation!
-Description here.
+---
+layout: single
+author_profile: true
+title: "Welcome to the University of Waterloo Glaciology Group Wiki"
+---
+This website has a wealth of technical tips and tricks that can making your life working with GlaDS (and more!) easier. The goal is that this site will be the central place that we all look for solutions to our specific problems. Along with that, we all need to remember to post about our solutions!
 
-## More headers
-People should upload any of their useful tips and tricks.
+## Contribution instructions
+You can contribute from the Github web interface, or by cloning the repository and pushing changes.
 
- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia erat ut velit malesuada, et aliquet elit commodo. Nunc laoreet sem massa, id semper mauris dignissim ac. Praesent diam risus, molestie a blandit at, commodo eu arcu. Ut consequat pretium mauris nec vehicula. Pellentesque sit amet eleifend augue. Donec dictum nibh ut ante gravida, nec dignissim velit tincidunt. Ut condimentum venenatis purus a blandit.
+Add a markdown file in the `_pages/` directory with your content. If you want to add the file to the top navigation bar, also add the appropriate data to `_data/navigation.yml`.
 
-Aenean pellentesque viverra ligula, ut viverra leo laoreet et. Quisque tristique id erat quis tempus. Duis vel sem at dolor gravida malesuada ac at neque. Integer sed lectus sit amet leo hendrerit vestibulum quis ultricies erat. Aenean eu mauris ut felis ullamcorper varius vitae non orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis dui nec erat fermentum, in faucibus mauris iaculis. Fusce vulputate ligula massa, quis vehicula ante tempus vitae.
+You can typset math:
 
-Donec iaculis interdum tortor ac malesuada. Phasellus placerat egestas tortor, at dictum risus. Suspendisse maximus ullamcorper feugiat. Nulla interdum tellus ut orci tincidunt, sit amet commodo nisl varius. Sed magna ante, tincidunt ut laoreet id, tincidunt id nunc. Morbi tellus est, volutpat eu gravida eget, maximus a purus. Nam tempus ac nibh id sodales. Nulla turpis ligula, faucibus eu fringilla id, porttitor vitae nulla. Aliquam sollicitudin pretium dui et blandit. Aenean in maximus nisl, at ullamcorper eros. Mauris vitae tincidunt nisi, id pellentesque lectus. In non leo leo. Nulla rutrum varius ipsum ut condimentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris mi magna, gravida sed augue et, tincidunt ultricies tortor. 
+$$\frac{\partial u}{\partial t} + \nabla \cdot \vec{q} = 0$$
 
-## Glacier Drainage System
-GlaDS info, link to page
+And you can include pictures from a link with this code:
+
+```html
+<figure>
+	<a href="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg"><img src="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"></a>
+	<figcaption><a href="http://www.flickr.com/photos/80901381@N04/7758832526/" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
+</figure>
+```
+
+<figure>
+	<a href="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg"><img src="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"></a>
+	<figcaption><a href="http://www.flickr.com/photos/80901381@N04/7758832526/" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
+</figure>
+
+Or you can include local photos with
+```markdown
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/diurnal_hs_hc.png){: .align-center}
+
+```
+
+![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/diurnal_hs_hc.png){: .align-center}
