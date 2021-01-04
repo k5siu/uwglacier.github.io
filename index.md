@@ -16,13 +16,12 @@ This page is written in Markdown. If you are unfamiliar with it, see [this guide
 
 You can contribute from the Github web interface, or by cloning the repository and pushing changes.
 
-To add a page, add a markdown file in the `_pages/` directory with your content. If you want to add the file to the top navigation bar, also add the appropriate data to `_data/navigation.yml`.
-
 You can typset math using LaTeX syntax using delimiters `$$`:
 
 $$\frac{\partial u}{\partial t} + \nabla \cdot \vec{q} = 0$$
 
-And you can include pictures from a link with this code:
+## Images
+You can include pictures from a link with this code:
 
 ```html
 <figure>
@@ -43,3 +42,6 @@ Or you can include local photos with
 ```
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/diurnal_hs_hc.png){: .align-center}
+
+## Pages
+Add a markdown file in the `_pages/` directory with your content to add a new page to the site. If you want to add the file to the top navigation bar, also add the appropriate data to `_data/navigation.yml`. See the pages already there for examples.
