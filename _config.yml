@@ -65,7 +65,7 @@ kramdown:
 author:
   name   : "UW Glaciology Group"
   avatar : "/assets/images/mountain.png"
-  bio    : "If you find a useful piece of code... add it!"
+  bio    : "Scripts, functions, code snippets, tips, and more!"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
