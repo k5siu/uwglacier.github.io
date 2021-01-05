@@ -36,7 +36,7 @@ You can include pictures from a link with this code:
 
 <figure>
 	<a href="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg"><img src="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"></a>
-	<figcaption><a href="http://www.flickr.com/photos/80901381@N04/7758832526/" title="External photor">External photo</a>.</figcaption>
+	<figcaption><a href="http://www.flickr.com/photos/80901381@N04/7758832526/" title="External photo"><\a>External photo.</figcaption>
 </figure>
 
 Or you can include local photos with
