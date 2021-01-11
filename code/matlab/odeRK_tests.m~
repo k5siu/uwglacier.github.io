@@ -1,0 +1,22 @@
+% Script odeRK_tests.m tests and shows the usage of odeRK.m
+
+%% Test 1: Simple harmonic motion
+omega = 2*pi; % Angular frequency
+odefun = @(t, y) [y(2); -omega^2*y(1)];
+
+% Solve with RK time stepping
+tspan = [0; 4];
+dt = 1/25;
+v0 = [0.2; 0];  % Small displacement ICs since this is linear oscillator
+% Solve using both RK and built-in adaptive method
+[tt_RK, Y1_RK] = odeRK(odefun, tspan, dt, v0);
+[tt_45, Y1_45] = ode45(odefun, tspan, v0);
+
+figure
+hold on
+plot(tt_RK, Y1_RK(:,1))
+plot(tt_45, Y1_45(:, 1))
+% Exact solution
+plot(tt_RK, 0.2*cos(tt_RK*2*pi), 'linestyle', '--')
+legend({'RK', '45', 'Exact'})
+title('Simple Harmonic Motion')
