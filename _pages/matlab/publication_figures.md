@@ -5,7 +5,7 @@ title: "Making publication-quality figures in Matlab"
 
 This example takes you through saving mixed vector and raster figures in Matlab. This example produces a PDF figure where any text and labels are saved as vector content (so they maintains sharp lines at any zoom level) and the actual axes content is saved as raster content (like an image). This can be useful in creating figures to submit to journals. The alternative to this method is to submit high resolution images in a suitable format (e.g. tiff or png).
 
-The example code is copied below, but is also in the [git repo](https://github.com/uwglacier/uwglacier.github.io/tree/main/code/matlab/publication_figures_example.m). This example uses a modified version of the [https://www.mathworks.com/matlabcentral/fileexchange/64650-vecrast](vecrast) function.
+The example code is copied below, but is also in the [git repo](https://github.com/uwglacier/uwglacier.github.io/tree/main/code/matlab/publication_figures_example.m). This example uses a modified version of the [vecrast](https://www.mathworks.com/matlabcentral/fileexchange/64650-vecrast) function that is also in the git repo.
 
 ```matlab
 % Example of making high quality mixed vector/raster figures in Matlab
