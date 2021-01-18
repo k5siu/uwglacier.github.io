@@ -1,5 +1,5 @@
 ---
-permalink: /rtd/
+permalink: /other/rtd/
 title: "Readthedocs"
 ---
 
