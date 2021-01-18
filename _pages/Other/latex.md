@@ -16,9 +16,9 @@ You can choose to work with Latex locally, or using a cloud service. Latex sourc
 
 There are a few different excellent guides to writing in Latex:
 
- * https://www.overleaf.com/learn
- * https://en.wikibooks.org/wiki/LaTeX
- * https://tex.stackexchange.com/ for answers to all your Latex questiosn!
+ * [https://www.overleaf.com/learn](https://www.overleaf.com/learn)
+ * [https://en.wikibooks.org/wiki/LaTeX](https://en.wikibooks.org/wiki/LaTeX)
+ * [https://tex.stackexchange.com/](https://tex.stackexchange.com/) for answers to all your Latex questiosn!
  
 Most journals provide a Latex template with excellent instructions. This is where Overleaf really excels. Most journals provide you a link to their template on Overleaf. When your done, the template usually has a link to submit directly to the journal!
  
