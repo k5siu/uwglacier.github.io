@@ -1,5 +1,5 @@
 ---
-permalink: /other/pages/
+permalink: /pages/
 title: "Github Pages
 ---
 

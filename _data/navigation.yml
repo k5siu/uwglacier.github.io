@@ -5,3 +5,5 @@ main:
     url: /glads/
   - title: "Matlab"
     url: /matlab/
+  - title: "Other"
+    url: /other/
