@@ -1,6 +1,6 @@
 ---
 permalink: /rtd/
-title: "Readthedocs
+title: "Readthedocs"
 ---
 
 Read the docs!

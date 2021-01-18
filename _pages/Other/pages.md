@@ -1,6 +1,6 @@
 ---
 permalink: /pages/
-title: "Github Pages
+title: "Github Pages"
 ---
 
 Describe GH Pages from markdown using Jekyll and with HTML and markdown/python.
