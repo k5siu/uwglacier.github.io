@@ -10,3 +10,6 @@ The following functions are available:
 
 ## Examples
  * [Making publication figures in Matlab](https://uwglacier.github.io/matlab/publication_figures) describes how to make PDF figures with vector labels and raster content in Matlab.
+
+## External resources
+ * ['palettes'](https://github.com/timghill/palettes), matlab tools for using the SciVisColor colourmaps.
