@@ -1,7 +1,7 @@
 main:
   - title: "About"
     url: /about/
-  - title: "GLaDS"
+  - title: "GlaDS"
     url: /glads/
   - title: "Matlab"
     url: /matlab/
