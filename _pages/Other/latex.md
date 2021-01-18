@@ -7,7 +7,7 @@ What is Latex? From the [Overleaf](https://www.overleaf.com/learn) documentation
 
  > LaTeX is a great tool to create documents. It's based on the 'WYSIWYM' (what you see is what you mean) idea, meaning you only have to focus on the contents of your document and the computer will take care of the formatting. With LaTeX, it's very easy to create professional-looking material.
 
-In practice, Latex is similar to Markdown in that it is a tool you use to create and format documentations. The difference is that Latex is optimized for creating professional-looking PDF documents.
+In practice, Latex is similar to Markdown in that it is a tool you use to create and format documents. The difference is that Latex is optimized for creating professional-looking PDF documents.
 
 Latex is not a "What you see is what you get" editor, meaning that with Latex you write a plain text text document which gets compiled to the formatted PDF document. This can be harder at first, but it makes things like placing figures, writing and formatting equations, and cross-referencing within the document much easier than with Word or Google Docs.
 
@@ -18,9 +18,10 @@ There are a few different excellent guides to writing in Latex:
 
  * [https://www.overleaf.com/learn](https://www.overleaf.com/learn)
  * [https://en.wikibooks.org/wiki/LaTeX](https://en.wikibooks.org/wiki/LaTeX)
- * [https://tex.stackexchange.com/](https://tex.stackexchange.com/) for answers to all your Latex questiosn!
+ * [https://tex.stackexchange.com/](https://tex.stackexchange.com/) for answers to all your Latex questions!
  
-Most journals provide a Latex template with excellent instructions. This is where Overleaf really excels. Most journals provide you a link to their template on Overleaf. When your done, the template usually has a link to submit directly to the journal!
+## Journals
+Most journals provide a Latex template with excellent instructions. This is where Overleaf really excels. Most journals provide you a link to their template on Overleaf. When you're done, the template usually has a link to submit directly to the journal!
  
   * [JOG](https://www.overleaf.com/latex/templates/latex-template-for-journal-of-glaciology-jog/prcsfgbpbckc#.WXXJdunavVh)
   * [JGR](https://www.overleaf.com/latex/templates/american-geophysical-union-agu-agutex-article/spqmvzkffdrq#.WZWvbneGMUF)
